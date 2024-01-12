@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: DiamondPriceprediction
-Version: 0.1
-Author: Abhishek Jaiswal
-Author-email: arjaiswal2909@gmail.com
-Requires-Dist: numpy
-Requires-Dist: pandas
-Requires-Dist: flask
