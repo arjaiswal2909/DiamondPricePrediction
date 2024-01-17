@@ -1,5 +1,7 @@
 numpy
 pandas
+seaborn
+matplotlib
 flask
-
--e .
+scikit-learn
+# -e .
