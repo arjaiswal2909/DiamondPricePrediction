@@ -19,7 +19,7 @@ class DataIngestion:
     def __init__(self):
         self.ingestion_config=DataIngestionconfig()
 
-    def intiate_data_ingestion(self):
+    def initiate_data_ingestion(self):
         logging.info('Data Ingestion method start')
 
         try:
