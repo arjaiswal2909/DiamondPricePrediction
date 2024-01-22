@@ -68,8 +68,8 @@ class DataTransformation:
             test_df=pd.read_csv(test_data_path)
 
             logging.info('Read train and test data completed')
-            logging.info('Train Dataframe head : \n{train_df.head().to_string()}')
-            logging.info('Test Dataframe head : \n{test_df.head().to_string()}')
+            logging.info(f'Train Dataframe head : \n{train_df.head().to_string()}')
+            logging.info(f'Test Dataframe head : \n{test_df.head().to_string()}')
 
             preprocessor_obj=self.get_data_transformation_object()
 
